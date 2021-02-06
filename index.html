@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="to-top">
+      <button class="to-top hidden" onclick="toTop()" id="back-to-top"></button>
+    </div>
+    <div class="header" id="home">
+      <div class="header-content">
+        <h1>Duc Tuan Nguyen</h1>
+        <p id="description"></p>
+      </div>
+      <div class="language-group">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1024px-Flag_of_Vietnam.svg.png"
+          alt="vie"
+          width="50px"
+          height="30px"
+          id="vie"
+        />
+        <img
+          src="https://sites1.christophlutz.co.uk/gbmag/wp-content/uploads/2017/01/UK-flag-union-jack-1024x683.jpg"
+          alt="eng"
+          width="50px"
+          height="30px"
+          id="eng"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 col-s-3">
+        <div class="menu" id="menu">
+          <ul>
+            <li id="nav-0"></li>
+            <li id="nav-1"></li>
+            <li id="nav-2"></li>
+            <li id="nav-3"></li>
+            <li id="nav-4"></li>
+            <li id="nav-5"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-6 col-s-9">
+        <div class="card basic-info" id="basic-info">
+        </div>
+        <div class="card skills" id="skills">
+          <h2 id="skills-label"></h2>
+          <div id="general-knowledge"></div>
+          <div id="programming-language"></div>
+          <div id="frontend"></div>
+          <div id="backend"></div>
+          <div id="version-control"></div>
+          <div id="project-management"></div>
+          <div id="foreign-language"></div>
+        </div>
+        <div class="card experience" id="experience">
+          <h2 id="experience-label">Experience</h2>
+          <div id="jobs"></div>
+          <div id="projects"></div>
+        </div>
+        <div class="card education" id="education">
+          <h2 id="education-label"></h2>
+          <div id="bachelor"></div>
+          <div id="master"></div>
+        </div>
+      </div>
+      <div class="col-3 col-s-12">
+        <div class="contact" id="contact">
+          <h2 id="contact-label"></h2>
+          <p>Email: ductuan1999@gmail.com</p>
+          <p>Phone: +61-475812121</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyrighted by Nguyen Duc Tuan</p>
+    </div>
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
